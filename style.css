@@ -12,6 +12,7 @@
     box-shadow: 12px 13px 26px 0px rgba(0,0,0,0.75);
     opacity: 10%;
     transition: all 400ms;
+    border: 2px solid black;
 }
 
 .fotodavi img:hover {
@@ -30,3 +31,17 @@ body style {
     background-position: center;
 }
 
+@media screen and (max-width: 600px) {
+    .fotodavi img {
+        height: 65%;
+        width: 65%;
+        margin-top: 280px;
+    }
+
+    .fotodavi img:hover {
+        height: 75%;
+        width: 75%;
+        opacity: 100%;
+        transition: all 400ms;
+    }
+}
