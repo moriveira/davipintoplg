@@ -2,7 +2,7 @@
 .fotodavi {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .fotodavi img {
@@ -29,6 +29,7 @@
 
 body style {
     background-position: center;
+    background-position: 30%;
 }
 
 @media screen and (max-width: 390px) {
