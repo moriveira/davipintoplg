@@ -31,7 +31,7 @@ body style {
     background-position: center;
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 390px) {
     .fotodavi img {
         height: 65%;
         width: 65%;
